@@ -46,11 +46,11 @@
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
-&kp  GRAVE    &kp  N1    &kp  N2     &kp  N3     &kp  N4    &kp  N5                                                                        &kp  N6  &kp  N7    &kp  N8     &kp  N9    &kp  N0       &kp  PSCRN
+&kp  GRAVE    &kp  N1    &kp  N2     &kp  N3     &kp  N4    &kp  N5                                                                        &kp  N6  &kp  N7    &kp  N8     &kp  N9    &kp  N0       &kp  BSPC
 &kp  TAB      &kp  Q     &kp  W      &kp  E      &kp  R     &kp  T                                                                         &kp  Y   &kp  U     &kp  I      &kp  O     &kp  P        &kp  BSLH
 &lt HYPER ESC &kp  A     &kp  S      &kp  D      &kp  F     &kp  G                                                                         &kp  H   &kp  J     &kp  K      &kp  L     &kp  SEMI     &kp  SQT
 &kp  LSHFT    &kp  Z     &kp  X      &kp  C      &kp  V     &kp  B             &kp  DEL    &kp  PG_DN    &kp  PG_UP  &kp  HOME             &kp  N   &kp  M     &kp  COMMA  &kp  DOT   &kp  SLASH    &mt  RSHFT ENTER
-&kp  LCTRL    &kp LALT   &kp  LMETA  &kp  LALT                       &kp LMETA &kp  SPACE  &mo  LOWER    &mo  RAISE  &kp  BSPC &kp  RALT                       &kp  LEFT   &kp  DOWN  &kp  UP       &kp  RIGHT
+&kp  LCTRL    &kp LMETA   &kp  LALT  &kp  SPACE                       &kp SPACE &kp  SPACE  &mo  LOWER    &mo  RAISE  &kp  BSPC &kp  RALT                       &kp  UP   &kp  LEFT  &kp  DOWN       &kp  RIGHT
                         >;
                 };
 
