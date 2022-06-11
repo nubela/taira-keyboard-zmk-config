@@ -1,20 +1,16 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_TAIRA_LEFT
+if SHIELD_TAIRA_RIGHT
 
-config ZMK_KEYBOARD_NAME
-	default "Taira Left"
-
-#config ZMK_SPLIT_BLE_ROLE_CENTRAL
-#	default y
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
 
 endif
 
-#if SHIELD_TAIRA_LEFT || SHIELD_TAIRA_RIGHT
-if SHIELD_TAIRA_RIGHT
+if SHIELD_TAIRA_LEFT || SHIELD_TAIRA_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Taira Right"
+	default "Taira"
 
 endif
