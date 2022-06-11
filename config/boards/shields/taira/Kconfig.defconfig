@@ -3,6 +3,9 @@
 
 if SHIELD_TAIRA_RIGHT
 
+config ZMK_KEYBOARD_NAME
+	default "Taira"
+
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
@@ -10,7 +13,7 @@ endif
 
 if SHIELD_TAIRA_LEFT || SHIELD_TAIRA_RIGHT
 
-config ZMK_KEYBOARD_NAME
-	default "Taira"
+config ZMK_SPLIT
+	default y
 
 endif
