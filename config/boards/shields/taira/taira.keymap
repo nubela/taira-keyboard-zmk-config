@@ -17,9 +17,6 @@
 
 #define HYPR(KC) LC(LS(LA(LG(KC))))
 
-&mt {
-        tapping-term-ms = 100;
-};
 
 / {
 
@@ -30,6 +27,10 @@
                         if-layers  = <1 2>;
                         then-layer = <3>;
                 };
+        };
+
+        &mt {
+                tapping-term-ms = <50>;
         };
 
         keymap {
