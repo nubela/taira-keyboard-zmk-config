@@ -17,6 +17,10 @@
 
 #define HYPR(KC) LC(LS(LA(LG(KC))))
 
+&mt {
+        tapping-term-ms = 100;
+};
+
 / {
 
         conditional_layers {
@@ -27,10 +31,6 @@
                         then-layer = <3>;
                 };
         };
-
-&mt {
-    tapping-term-ms = 100;
-};
 
         keymap {
                 compatible = "zmk,keymap";
